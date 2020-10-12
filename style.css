@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+body {
+    display: flex;
+    padding-left: 30%;
+    overflow-y: hidden;
+}
+
+#phone{
+    height: 60%;
+    padding-top: 20%;
+}
+
+#logo{
+    height: 15%;
+}
+
+.right{
+    padding-top: 18%;
+}
+
+p{
+    padding-top: 2em;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 1.20em;
+    color:rgb(190, 190, 190);
+}
+
+#par{
+    padding-top: 2.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
