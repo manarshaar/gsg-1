@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
 body {
     display: flex;
-    padding-left: 30%;
+    padding-left: 25%;
     overflow-y: hidden;
 }
 
@@ -21,13 +22,47 @@ body {
 p{
     padding-top: 2em;
     font-family: 'Commissioner', sans-serif;
-    font-size: 1.20em;
+    font-size: 1.10em;
     color:rgb(190, 190, 190);
 }
 
-#par{
-    padding-top: 2.5em;
-    font-family: 'Roboto', sans-serif;
+.buttons{
+    padding-top: 1.5em;
+
 }
 
+#b1{
+    border: 2px solid #4CAF50;
+    background-color:white;
+    border-radius: 30px;
+    color:#4CAF50 ;
+    padding: 10px 35px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Commissioner', sans-serif;
+}
+
+#b2{
+    border: none;
+    background-color:rgb(179, 174, 174);
+    border-radius: 30px;
+    color:white ;
+    padding: 12px 35px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Commissioner', sans-serif;
+
+    margin-left: 20px;
+
+}
+
+.platforms{
+    padding-top: 2.3em;
+    padding-left: 5px;
+}
+
+.platform{
+    height: 25px;
+    padding-right: 37px;
+}
 
