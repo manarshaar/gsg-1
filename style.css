@@ -2,21 +2,47 @@
 
 body {
     display: flex;
-    padding-left: 25%;
     overflow-y: hidden;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    padding-left: 25%;
+    padding-right: 20%;
+
 }
 
 #phone{
-    height: 60%;
+    height: 57%;
     padding-top: 20%;
 }
 
+.points{
+    padding-top: 1em;
+    padding-left: 6em;
+}
+
+.point{
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #b5ecb6;
+    display: inline-block;
+}
+
+.point.filled{
+    background-color: #b5ecb6;
+}
+
 #logo{
-    height: 15%;
+    height: 13%;
 }
 
 .right{
-    padding-top: 18%;
+    padding-top: 25%;
 }
 
 p{
@@ -52,17 +78,27 @@ p{
     cursor: pointer;
     font-family: 'Commissioner', sans-serif;
 
-    margin-left: 20px;
+    margin-left: 1em;
 
 }
 
 .platforms{
     padding-top: 2.3em;
-    padding-left: 5px;
+    padding-left: 8px;
 }
 
 .platform{
-    height: 25px;
+    height: 23px;
     padding-right: 37px;
 }
+
+@media screen and (max-width: 1235px) {
+    #b2{
+        margin-left: 0em;
+        margin-top: 1em;
+        
+    }
+}
+
+
 
